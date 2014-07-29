@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSO</string>
+    <string name="hello_world">Red Squirrel Observer</string>
+    <string name="start_button_text">Start an Observation</string>
+    <string name="view_completed_button_text">View All Observations</string>
+    <string name="about_button_text">About</string>
+    
+    <string name="site_name_label">Location Name: </string>
+    <string name="site_length_label">Length (meters): </string>
+    <string name="start_observation_start_button_text">Start!</string>
+    
+    <string name="start_observation_instructions">Listen for Red Squirrel chatter along a walking path. Walk at an average speed, about 5km/h. The button will pause the distance meter.  </string>
+    <string name="walk_squirrel_button_text">Squirrel!</string>
+    <string name="squirrel_count_text">123</string>
+
+    <string name="left_squirrel_button_text">To the Left</string>
+    <string name="right_squirrel_button_text">To the Right</string>
+    <string name="no_squirrel_button_text">No Squirrel</string>
+    
+    <string name="toast_button_text">strings.xml toast</string>
+    <string name="list_item">new list item</string>
+    
+</resources>

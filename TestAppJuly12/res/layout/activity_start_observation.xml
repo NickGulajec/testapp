@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="48dp"
+    android:paddingRight="48dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+     <TextView
+        android:id="@+id/site_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/site_name_label" />
+     <EditText
+        android:id="@+id/site_name"
+        android:inputType="text"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:gravity="right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/site_name_label"
+        android:layout_alignBaseline="@id/site_name_label" />
+     <TextView
+        android:id="@+id/site_length_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/site_name_label"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/site_length_label" />
+     <EditText
+        android:id="@+id/site_length"
+        android:inputType="number"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:gravity="right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/site_length_label"
+        android:layout_alignBaseline="@id/site_length_label" />
+
+     <Button
+         android:id="@+id/start_observation_start_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/site_length"
+         android:layout_centerVertical="true"
+         android:background="@drawable/rounded_button"
+         android:text="@string/start_observation_start_button_text" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/start_observation_start_button"
+         android:layout_alignLeft="@+id/site_length_label"
+         android:layout_alignRight="@+id/site_length"
+         android:layout_below="@+id/site_length_label"
+         android:text="@string/start_observation_instructions" />
+
+</RelativeLayout>
